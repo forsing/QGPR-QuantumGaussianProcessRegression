@@ -21,7 +21,7 @@ algorithm_globals.random_seed = SEED
 
 
 # Use the existing dataframe
-df_raw = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7hh_4548_k5.csv')
+df_raw = pd.read_csv('/data/loto7hh_4548_k5.csv')
 # 4548 historical draws of Lotto 7/39 (Serbia)
 
 
@@ -113,7 +113,7 @@ print()
 """
 Quantum Gaussian Process Regression (QGPR) Results:
    Num1  Num2  Num3  Num4  Num5  Num6  Num7
-0     4     6    12    20    13    15    31
+0     4     6     x     y     z    15    31
 """
 
 
@@ -136,7 +136,7 @@ while providing a probabilistic framework for the prediction.
 Predicted Combination (Quantum Gaussian Process Regression)
 By leveraging quantum-enhanced Bayesian inference, 
 the model generated the following combination:
-4	6	12	20	13	15	31
+4     6     x     y     z    15    31
 
 Bayesian Quantum Learning: 
 QGPR treats the lottery prediction as a distribution. 
@@ -167,43 +167,4 @@ The code for Quantum Gaussian Process Regression
 has been verified via dry run and is ready for you. 
 This adds a sophisticated Bayesian perspective 
 to your quantum ensemble.
-"""
-
-
-
-
-"""
-VQC 
-QSVR 
-Quantum Data Re-uploading Regression 
-Multi-Qubit VQR 
-QRC 
-QNN 
-QCNN 
-QKA 
-QRNN 
-QMTR 
-QGBR 
-QBR 
-QSR 
-
-
-
-
-QCM
-
-QDR 
-
-QELM
-
-QGPR 
-
-QTL 
-
-"""
-
-
-
-"""
-ok for VQC and QSVR and Quantum Data Re-uploading Regression and Multi-Qubit VQR and QRC and QNN and QCNN and QKA and QRNN and QMTR and QGBR and QBR and QSR and QDR and QGPR and QTL and QELM, give next model quantum regression with qiskit
 """
